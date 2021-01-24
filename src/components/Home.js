@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from '../styles/home.module.scss'
-import mainImage from '../images/main-image.jpeg'
 
 const Home = () => {
+    useEffect(() => {
+
+    }, [])
+
+
     return (
         <section className={styles.homeContainer}>
             <div className={styles.homeHeadlines}>
-                <p>Hello, I'm...</p>
-                <h1>Elliot Sharpe</h1>
-                <h2>Software Developer</h2>
+
+                <p data-sal="slide-left"
+                    data-sal-delay="200"
+                    data-sal-easing="ease">Hello, I'm...</p>
+                <h1 data-sal="slide-right"
+                    data-sal-delay="600"
+                    data-sal-easing="ease">Elliot Sharpe</h1>
+                <h2 data-sal="slide-left"
+                    data-sal-delay="1000"
+                    data-sal-easing="ease">Software Developer</h2>
             </div>
         </section >
     );

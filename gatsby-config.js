@@ -5,8 +5,10 @@ module.exports = {
     author: `@elliotsharpe`,
   },
   plugins: [
+    `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -19,17 +21,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Elliot Sharpe - Portfolio Website`,
+        short_name: `Elliot Sharpe Website`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#1b1b1b`,
+        theme_color: `#1b1b1b`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/e-icon-29.jpg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+
   ],
 }

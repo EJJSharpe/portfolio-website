@@ -7,7 +7,7 @@ const About = () => {
             <h2>About</h2>
             <div className={styles.aboutContainer}>
                 <div className={styles.aboutImg}>
-                    <img src={mainImage} alt="profile picture of Elliot Sharpe" />
+                    <img src={mainImage} alt="Elliot Sharpe" />
                 </div>
                 <div className={styles.textContainer}>
                     <p>I spent most of my early adult years chasing rock stardom and a career in the

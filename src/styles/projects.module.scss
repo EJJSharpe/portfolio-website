@@ -45,18 +45,64 @@
     margin: auto;
 }
 
-.choremasterImg{
+.choremasterImage{
+    position: relative;
     grid-area: r1;
-    img{
+    width: 400px;
+    margin: auto;
+    max-width: 80%;
 
-        width: 400px;
+    button{
+        border: none;
+        width: 100%;
+        background-color: $dark;
+        cursor: pointer;
+    }
+
+    img{
+        margin: auto;
+        width: 100%;
         border-radius: 0.2rem;
         box-shadow: 4px 4px 0.1px $orange;
-        max-width: 90vw;
 
         &:hover{
             transform: scale(1.05);
         }
+    }
+
+    i{
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        font-size: 2rem;
+        color: $orange;
+        cursor: pointer;
+    }
+}
+
+.readditImage{
+    grid-area: l2;
+    width: 400px;
+    margin: auto;
+    position: relative;
+    max-width: 80%;
+    img{
+        margin-top: 3rem;
+        width: 100%;
+        border-radius: 0.2rem;
+        box-shadow: 4px 4px 0.1px $orange;
+
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+
+    i{
+        position: absolute;
+        bottom: 5px;
+        right: 20px;
+        font-size: 2rem;
+        color: $orange;
     }
 }
 
@@ -64,6 +110,7 @@
     padding-left: 4rem;
     padding-right: 4rem;
     margin: auto;
+    margin-bottom: 2rem;
     h3{
         font-size: 1.5rem;
         margin-bottom: 1rem;
@@ -76,15 +123,14 @@
 
 }
 
-
 .readditInfo{
     padding-left: 4rem;
     padding-right: 4rem;
     margin: auto;
-    margin-top: 5rem;
     h3{
         font-size: 1.5rem;
         margin-bottom: 1rem;
+        margin-top: 2rem;
     }
     p{
         color: $white;
@@ -92,6 +138,25 @@
     grid-area: r2;
 
 }
+
+.codeInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    border: 1px solid $orange;
+    p{
+    color:$orange;
+    padding-right: 1rem;
+    }
+    i{
+    color: $orange;
+    font-size: 2rem;
+    }
+}
+
+
+
 
 @media screen and (max-width: 768px){
     .projectsContainer{

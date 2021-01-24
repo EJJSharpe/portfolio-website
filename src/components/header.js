@@ -13,9 +13,9 @@ const Header = () => (
       </nav>
 
       <div className={styles.socialsList}>
-        <a href="#"><i className='bx bxl-linkedin-square'></i></a>
-        <a href="#"><i className='bx bxl-github'></i></a>
-        <a href="#"><i className='bx bxl-twitter'></i></a>
+        <a href="https://www.linkedin.com/in/elliotsharpe/"><i className='bx bxl-linkedin-square' aria-label='linked in'></i></a>
+        <a href="https://github.com/ejjsharpe"><i className='bx bxl-github' aria-label='github'></i></a>
+        <a href="https://twitter.com/elliotsharpe"><i className='bx bxl-twitter' aria-label='twitter'></i></a>
       </div>
 
     </div>
