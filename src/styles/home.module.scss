@@ -10,7 +10,6 @@
 }
 
 .homeHeadlines{
-    max-width: 90vw;
     p{
         font-size: 2rem;
         margin-left: 0.4rem;
@@ -84,7 +83,7 @@
 }
 
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 400px){
     .homeHeadlines{
         p{ font-size: 1.2rem}
         h1{ font-size: 4rem}

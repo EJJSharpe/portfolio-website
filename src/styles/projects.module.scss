@@ -50,7 +50,7 @@
     grid-area: r1;
     width: 400px;
     margin: auto;
-    max-width: 80%;
+    max-width: 90%;
 
     button{
         border: none;
@@ -85,7 +85,7 @@
     width: 400px;
     margin: auto;
     position: relative;
-    max-width: 80%;
+    max-width: 90%;
     img{
         margin-top: 3rem;
         width: 100%;
@@ -162,9 +162,20 @@
     .projectsContainer{
         display: flex;
         flex-direction: column;
+        max-width: 95vw;
     }
 
     img{
         margin-top: 2rem;
+    }
+
+    .choremasterInfo{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .readditInfo{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
