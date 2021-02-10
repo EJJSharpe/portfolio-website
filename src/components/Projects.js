@@ -36,13 +36,13 @@ const Projects = () => {
                     <p>A full stack Reddit-style news app.
                     The backend comprises of a postgreSQL relational database and Express to create a REST API and the front end is a responsive website built with React.
                     </p>
-                    <a href='https://github.com/EJJSharpe/ChoreMaster'>
+                    <a href='https://github.com/EJJSharpe/readdit-react-app'>
                         <div className={styles.codeInfo}>
                             <p>View frontend code</p>
                             <i className='bx bxl-github'></i>
                         </div>
                     </a>
-                    <a href='https://github.com/EJJSharpe/ChoreMaster'>
+                    <a href='https://github.com/EJJSharpe/readdit-api'>
                         <div className={styles.codeInfo}>
                             <p>View backend code</p>
                             <i className='bx bxl-github'></i>
